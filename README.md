@@ -62,7 +62,7 @@ public interface CarMapper {
 ## Test Case
 
 ```java
-  @Test
+  	@Test
 	public void shouldMapCarToDto() {
 		// given
 		Car car = new Car("Morris", 5, CarType.SEDAN);
